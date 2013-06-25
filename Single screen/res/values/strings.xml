@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Robo-Controller</string>
+    <string name="default_wifi_module_IP">10.129.26.99</string>
+    <string name="camera_stream_URL">Camera Stream URL</string>
+    <string name="enter_stream_url">Enter Camera Stream URL</string>
+    <string name="enter_wifi_module_IP">Enter WiFi Module IP</string>
+    <string name="default_stream_URL">http://10.129.26.99:8083</string>
+    <string name="wifi_module_IP">WiFi Module IP</string>
+    <string name="settings">Settings</string>
+    <string name="wifi_module_port">WiFi Module Port</string>
+    <string name="enter_wifi_module_port">Enter WiFi Module Port</string>
+    <string name="default_wifi_module_port">7777</string>
+</resources>

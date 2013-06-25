@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3388ee"
+    >
+    
+    <in.ac.iitb.aakash.robo.MjpegView
+        android:layout_height="fill_parent"
+        android:layout_width="600dp"
+        android:layout_gravity="left|center_vertical"
+        android:id="@+id/streamView"
+        />
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    
+        <!-- 
+         <Button
+            android:id="@+id/connect_disconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:onClick="Connect_Disconnect"
+            
+            />
+        
+        
+         -->
+        
+        <Button android:id="@+id/up"
+			android:text="Up"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:onClick="Up"
+			
+			android:layout_marginLeft="60dp"
+		
+			/>
+        
+        <LinearLayout
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        
+        <Button android:id="@+id/plus"
+			android:text="+"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="Plus"
+		
+		
+			/>
+       
+          <Button android:id="@+id/zero"
+			android:text="0"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="Zero"
+		
+			/>
+            <Button android:id="@+id/minus"
+			android:text="-"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:onClick="Minus"
+			
+			/>
+        
+        </LinearLayout>
+        
+          <Button android:id="@+id/down"
+			android:text="Down"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="60dp"
+			
+		android:onClick="Down"
+			/>
+	    <in.ac.iitb.aakash.robo.JoystickView
+	        android:id="@+id/joystickView"
+	        android:layout_width="170dp"
+	        android:layout_height="170dp"
+	        android:layout_gravity="center_horizontal"
+	        
+	        android:layout_marginTop="10dp"
+	        
+	        />
+	    
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_gravity="bottom"
+		    >
+	    
+		    <ToggleButton android:id="@+id/buzzerButton"
+				android:layout_width="43dp"
+				android:layout_height="43dp"
+				android:layout_marginRight="40dp"
+				android:layout_marginLeft="35dp"
+				
+				android:layout_gravity="bottom|center_horizontal"
+				android:onClick="buzzerToggle"
+				android:textOn=""
+				android:textOff="" 
+				android:background="@drawable/buzzerbutton"
+				/>
+		    
+		    <Button
+				android:id="@+id/settings"
+				android:layout_width="43dp"
+				android:layout_height="43dp"
+				
+				android:text=""
+				android:onClick="openSettings"
+				android:layout_gravity="bottom|center_horizontal"
+				android:background="@drawable/settingsbutton"
+				
+				/>
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

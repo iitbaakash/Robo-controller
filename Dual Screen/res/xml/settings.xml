@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <EditTextPreference
+                android:key="cameraStreamURL"
+                android:title="@string/camera_stream_URL"
+				android:defaultValue="@string/default_stream_URL"
+                android:summary="@string/default_stream_URL"
+                android:dialogTitle="@string/enter_stream_url" />
+				
+		<EditTextPreference
+                android:key="wifiModuleIP"
+                android:title="@string/wifi_module_IP"
+				android:defaultValue="@string/default_wifi_module_IP"
+                android:summary="@string/default_wifi_module_IP"
+                android:dialogTitle="@string/enter_wifi_module_IP" />
+		
+		<EditTextPreference
+                android:key="wifiModulePort"
+                android:title="@string/wifi_module_port"
+				android:defaultValue="@string/default_wifi_module_port"
+                android:summary="@string/default_wifi_module_port"
+                android:dialogTitle="@string/enter_wifi_module_port" />
+		
+		<EditTextPreference
+                android:key="stillCameraURL"
+                android:title="@string/still_camera_stream_URL"
+				android:defaultValue="@string/default_still_camera_stream_URL"
+                android:summary="@string/default_still_camera_stream_URL"
+                android:dialogTitle="@string/enter_still_camera_stream_url" />
+		
+</PreferenceScreen>
